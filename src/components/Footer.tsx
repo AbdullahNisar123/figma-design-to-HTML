@@ -11,7 +11,7 @@ export default function Footer (){
     return(
        <div className="bg-footerBackground flex flex-col items-center justify-center h-[243px]">
         <div className="flex space-x-5 w-[244px] justify-between">
-            <Link href={''}> <FaFacebookSquare  className="w-[30px] h-[30px] bg-blue" /></Link>
+            <Link href={''}> <FaFacebookSquare  className="w-[30px] h-[30px]" /></Link>
             <Link href={''}><FaInstagram className="w-[30px] h-[30px]"/></Link>
             <Link href={''}><FaTwitter className="w-[30px] h-[30px]"/></Link>
             <Link href={''}> <FaLinkedin className="w-[30px] h-[30px]"/></Link>
